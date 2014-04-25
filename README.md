@@ -11,7 +11,7 @@ L'architecture de l'application est composée de trois packages :
 
 On retrouve dans ce package les objets métiers manipulés par l'application, à la fois côté serveur et côté client : Person et Article.
 
-* La classe Person dispose d'une relation OneToMany vers une collection d'objets Article
+La classe Person dispose d'une relation OneToMany vers une collection d'objets Article
 
  
  ```java
@@ -47,7 +47,7 @@ public class Person implements Serializable {
 }
 ```
 
- * La Article contient différents attributs dont un objet de type Date et une relation de type ManyToOne vers un objet Person
+La classe Article contient différents attributs dont un objet de type Date et une relation de type ManyToOne vers un objet Person
 
 
  ```java
