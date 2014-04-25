@@ -1,0 +1,2 @@
+serviceClass: fr.istic.tpgwt.client.GreetingService
+path: 36E770680895CDDE8281FF54F5F0DB36.gwt.rpc
